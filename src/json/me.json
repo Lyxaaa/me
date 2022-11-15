@@ -1,0 +1,25 @@
+{
+    "title": {
+        "type": "title",
+        "header": "Resume"
+    },
+    "name": {
+        "type": "profile",
+        "header": "My Name",
+        "image": "./assets/me.png"
+    },
+    "tiles": [
+        {
+            "key": 1,
+            "header": "Hobbies",
+            "description": "yes cool very cool",
+            "border_colour": "success"
+        },
+        {
+            "key": 2,
+            "header": "Expectations",
+            "description": "don't unalive",
+            "border_colour": "primary"
+        }
+    ]
+}

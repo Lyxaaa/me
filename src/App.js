@@ -1,23 +1,20 @@
 import logo from './logo.svg';
+import * as Constants from './constants/constants';
+import Tiles from './elements/tile';
 import './App.css';
 
+// import data from './json/me.json'
+let data = require('./json/me.json');
+
+
 function App() {
+
+  var title = {}
+  var profile = {}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="body">
+      <Tiles tiles={data.tiles} />
     </div>
   );
 }
