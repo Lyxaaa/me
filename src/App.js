@@ -13,8 +13,10 @@ function App() {
   var profile = {}
 
   return (
-    <div class="body">
+    <div class="d-flex justify-content-center">
+    <div class="tiles-container">
       <Tiles tiles={data.tiles} />
+    </div>
     </div>
   );
 }

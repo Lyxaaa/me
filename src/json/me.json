@@ -13,6 +13,28 @@
             "key": 1,
             "header": "Hobbies",
             "description": "yes cool very cool",
+            "tabs": [
+                {
+                    "key": 1,
+                    "title": "Blockchain",
+                    "description": {
+                        "line-1": "This very website is hosted on ",
+                        "link-name-1": "IPFS",
+                        "link-url-1": "https://ipfs.tech/",
+                        "line-2": "with a domain belonging to my ",
+                        "link-name-2": "ENS.",
+                        "link-url-2": "https://app.ens.domains/name/lyxaa.eth",
+                        "line-3": "It's a great little piece of tech!"
+                    }
+                },
+                {
+                    "key": 2,
+                    "title": "Driving",
+                    "description": {
+                        "line-1": "yes stoof dying fun"
+                    }
+                }
+            ],
             "border_colour": "success"
         },
         {

@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.tiles-container {
+  width: 100%;
+}
+
+.tile-card {
+  max-width: 450px;
+}
+
+@media (max-width: 768px) {
+  .tile {
+  }
+}
