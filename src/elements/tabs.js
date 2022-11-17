@@ -32,10 +32,20 @@ class Tabs extends React.Component {
                 </Tooltip>
               }
             >
-              <Accordion.Header>tab.title</Accordion.Header>
+              <Accordion.Header>{tab.title}</Accordion.Header>
             </OverlayTrigger>
             <Accordion.Body>
 
+              <span>
+                {tab.description.map((item, idt) => {
+                  if (item.type == "text") {
+                    return <span className="nowrap" key={idt}>{item.content}</span>
+                  } else if (item.type == "href") {
+                    return <a href={item.url} target="_blank" className="nowrap" key={idt}>{item.content}</a>
+                  }
+
+                })}
+              </span>
             </Accordion.Body>
           </Accordion.Item>
         ))}

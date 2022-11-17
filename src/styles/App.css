@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -43,6 +51,10 @@
 
 .tile-card {
   max-width: 450px;
+}
+
+.nowrap {
+  white-space: normal;
 }
 
 @media (max-width: 768px) {

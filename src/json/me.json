@@ -1,14 +1,20 @@
 {
     "title": {
         "type": "title",
-        "header": "Resume"
-    },
-    "name": {
-        "type": "profile",
-        "header": "My Name",
-        "image": "./assets/me.png"
+        "header": "Oscar Mahon",
+        "subtext": "Graduate Software Engineer",
+        "email": "mailto: oscarmahon@hotmail.com",
+        "mobile": "tel:0432160566",
+        "linkedin": "https://www.linkedin.com/in/oscar-mahon-aa7b31227/",
+        "website": "https://lyxaa.eth.limo/"
     },
     "tiles": [
+        {
+            "key": 2,
+            "header": "Experience",
+            "description": "Places I've worked & things I've done",
+            "border_colour": "warning"
+        },
         {
             "key": 1,
             "header": "Hobbies",
@@ -17,30 +23,56 @@
                 {
                     "key": 1,
                     "title": "Blockchain",
-                    "description": {
-                        "line-1": "This very website is hosted on ",
-                        "link-name-1": "IPFS",
-                        "link-url-1": "https://ipfs.tech/",
-                        "line-2": "with a domain belonging to my ",
-                        "link-name-2": "ENS.",
-                        "link-url-2": "https://app.ens.domains/name/lyxaa.eth",
-                        "line-3": "It's a great little piece of tech!"
-                    }
+                    "description": [
+                        {
+                            "type": "text",
+                            "content": "This very website is hosted on "
+                        },
+                        {
+                            "type": "href",
+                            "url": "https://ipfs.tech/",
+                            "content": "IPFS"
+
+                        },
+                        {
+                            "type": "text",
+                            "content": " with a domain belonging to my "
+                        },
+                        {
+                            "type": "href",
+                            "url": "https://app.ens.domains/name/lyxaa.eth",
+                            "content": "ENS."
+
+                        },
+                        {
+                            "type": "text",
+                            "content": " It's a great little piece of tech!"
+                        }
+                    ]
                 },
                 {
                     "key": 2,
                     "title": "Driving",
-                    "description": {
-                        "line-1": "yes stoof dying fun"
-                    }
+                    "description": [
+                        {
+                            "type": "text",
+                            "content": "yes stoof dying fun"
+                        }
+                    ]
                 }
             ],
+            "border_colour": "info"
+        },
+        {
+            "key": 2,
+            "header": "Studies",
+            "description": "UQ",
             "border_colour": "success"
         },
         {
             "key": 2,
             "header": "Expectations",
-            "description": "don't unalive",
+            "description": "$",
             "border_colour": "primary"
         }
     ]
