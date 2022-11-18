@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import me from '../assets/me.jpg';
 import bg from '../assets/bg.png';
 import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
 
 import Button from 'react-bootstrap/Button';
 
@@ -41,11 +42,16 @@ export default Header;
 
 function ContactInfo({ name, me, ...props }) {
     return (
-        <Row xs={2} md={2} className="">
+        <Row xs={3} className="">
             <ContactLine icon='mail' text={me.email} />
             <Col key='linkedin'>
                 <a href={me.linkedin} target="_blank">
                     <img src={linkedin} className='contact-btn' />
+                </a>
+            </Col>
+            <Col key='github'>
+                <a href={me.github} target="_blank">
+                    <img src={github} className='contact-btn' />
                 </a>
             </Col>
         </Row>

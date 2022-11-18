@@ -7,3 +7,15 @@
     background-color: #fff;
     color: #333;
 }
+
+.purple {
+    background-color: '#673ab7 !important';
+}
+
+.light-purple {
+    background-color: '#651fff !important';
+}
+
+.border-light-purple {
+    background-color: '#651fff !important';
+}

@@ -5,6 +5,10 @@ import Header from './elements/header';
 
 import './styles/App.css';
 import './styles/header.css';
+import './styles/tiles.css';
+import './styles/theme.css';
+
+import { red, pink, deepPurple, lightBlue, teal, green, yellow, deepOrange } from '@mui/material/colors';
 
 import { useState } from 'react';
 
